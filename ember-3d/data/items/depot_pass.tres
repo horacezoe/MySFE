@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"depot_pass"
+display_name = "货运通行证"
+category = &"key"
+width = 1
+height = 1
+unit_weight = 0.02
+max_stack = 1
+value = 100
+equipment_slot = &""
+color = Color(0.86, 0.73, 0.32, 1)

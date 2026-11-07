@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"loot_alloy"
+display_name = "稀有合金"
+category = &"loot"
+width = 2
+height = 2
+unit_weight = 2.4
+max_stack = 1
+value = 250
+equipment_slot = &""
+color = Color(0.701961, 0.647059, 0.788235, 1)

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"loot_battery"
+display_name = "军用电池"
+category = &"loot"
+width = 1
+height = 2
+unit_weight = 0.8
+max_stack = 2
+value = 180
+equipment_slot = &""
+color = Color(0.568627, 0.721569, 0.662745, 1)

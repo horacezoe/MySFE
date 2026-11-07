@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/combat/weapon_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"guard_rifle"
+display_name = "巡逻者步枪"
+magazine_size = 12
+starting_reserve = 72
+fire_interval = 0.45
+reload_duration = 2.0
+max_range = 48.0
+base_damage = 12.0
+head_multiplier = 2.0
+torso_multiplier = 1.0
+limb_multiplier = 0.65
+falloff_start = 14.0
+falloff_end = 48.0
+minimum_damage_factor = 0.6
+armor_penetration = 0.20
+hip_spread = 0.05
+aim_spread = 0.035
+move_spread = 0.075
+air_spread = 0.10

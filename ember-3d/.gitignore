@@ -1,0 +1,10 @@
+.godot/
+Godot/
+user_data/
+*.log
+tests/.phase3-disk-*/
+tests/.save-test-*/
+tests/.profile-test-*/
+
+tests/.corpse-game-*/
+tests/.corpse-profile-*/

@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"loot_parts"
+display_name = "精密零件"
+category = &"loot"
+width = 2
+height = 2
+unit_weight = 1.2
+max_stack = 2
+value = 150
+equipment_slot = &""
+color = Color(0.619608, 0.686275, 0.752941, 1)

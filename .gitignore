@@ -1,0 +1,28 @@
+# Local editor/engine state and personal progress
+.godot/
+Godot/
+user_data/
+.openai/
+node_modules/
+__pycache__/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Disposable save fixtures
+.phase3-disk-*/
+.save-test-*/
+.profile-test-*/
+.corpse-game-*/
+.corpse-profile-*/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Nested repository metadata; upload its project files as ordinary files
+**/.git/

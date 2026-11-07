@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"loot_chip"
+display_name = "加密芯片"
+category = &"loot"
+width = 1
+height = 1
+unit_weight = 0.05
+max_stack = 5
+value = 320
+equipment_slot = &""
+color = Color(0.760784, 0.623529, 0.858824, 1)

@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/combat/weapon_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"player_rifle"
+display_name = "制式步枪"
+magazine_size = 24
+starting_reserve = 120
+fire_interval = 0.16
+reload_duration = 1.6
+max_range = 60.0
+base_damage = 32.0
+head_multiplier = 2.0
+torso_multiplier = 1.0
+limb_multiplier = 0.65
+falloff_start = 20.0
+falloff_end = 60.0
+minimum_damage_factor = 0.65
+armor_penetration = 0.35
+hip_spread = 0.006
+aim_spread = 0.0012
+move_spread = 0.018
+air_spread = 0.04

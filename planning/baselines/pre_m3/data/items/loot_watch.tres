@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"loot_watch"
+display_name = "战术手表"
+category = &"loot"
+width = 1
+height = 1
+unit_weight = 0.15
+max_stack = 2
+value = 280
+equipment_slot = &""
+color = Color(0.780392, 0.741176, 0.545098, 1)

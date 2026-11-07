@@ -1,0 +1,11 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/combat/armor_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"guard_light"
+display_name = "巡逻者轻型防护"
+head_durability = 15.0
+body_durability = 30.0
+absorption = 0.65

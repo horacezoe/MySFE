@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"vest_light"
+display_name = "轻型防弹背心"
+category = &"armor"
+width = 2
+height = 3
+unit_weight = 3.2
+max_stack = 1
+value = 300
+equipment_slot = &"vest"
+color = Color(0.454902, 0.501961, 0.415686, 1)

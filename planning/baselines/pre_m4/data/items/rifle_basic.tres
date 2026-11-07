@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_definition.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"rifle_basic"
+display_name = "制式步枪"
+category = &"weapon"
+width = 2
+height = 3
+unit_weight = 3.4
+max_stack = 1
+value = 600
+equipment_slot = &"weapon"
+color = Color(0.490196, 0.568627, 0.525490, 1)
